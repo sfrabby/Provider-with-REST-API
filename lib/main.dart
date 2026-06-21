@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'Get API/UI.dart';
+import 'Get API/provider.dart';
 
 void main() {
   runApp(MultiProvider(
       
       providers: [
-        ChangeNotifierProvider(create: (context) => ,)
+        ChangeNotifierProvider(create: (context) =>ApiProvider() ,)
       ],
       child: const MyApp()));
 }

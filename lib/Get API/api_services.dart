@@ -5,7 +5,6 @@ import 'dart:convert'; // jsonDecode ব্যবহার করার জন�
 import 'Model/getApiModel.dart';
 
 class ApiServices {
-  bool isLoading = true;
   Future<getApiModel> getApi() async {
     late getApiModel model;
 
