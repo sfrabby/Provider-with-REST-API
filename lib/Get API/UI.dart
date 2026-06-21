@@ -15,7 +15,6 @@ class _getApiUiState extends State<getApiUi> {
         centerTitle: true,
         title: Text("Get API"),
         backgroundColor: Colors.teal,
-
       ),
     );
   }
