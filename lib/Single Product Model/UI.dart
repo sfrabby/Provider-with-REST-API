@@ -3,8 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'SimgleProvider.dart';
 
-class HomeScreen extends ConsumerWidget {
-  const HomeScreen({super.key});
+class singleScreen extends ConsumerWidget {
+  singleScreen ({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

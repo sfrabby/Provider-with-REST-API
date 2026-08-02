@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'Get Api with Model/ui.dart';
+import 'Single Product Model/UI.dart';
 
 void main() {
   runApp(ProviderScope(child: const MyApp()));
@@ -12,6 +13,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomeScreen());
+    return MaterialApp(home: singleScreen());
   }
 }
